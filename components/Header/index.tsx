@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const Header = () => {
 	return (
-		<div className="flex items-center justify-between px-16 py-8">
+		<div className="flex items-center w-full justify-between px-16 py-8">
 			<Logo />
 
-			<div className='flex gap-5 font-extrabold'>
+			<div className='lg:flex gap-5 font-extrabold hidden'>
 				<Link href='#'>
 					<p className='text-white text-lg'>
 						Главная
@@ -25,7 +25,7 @@ const Header = () => {
 				</Link>
 			</div>
 
-			<Button onClick={() => window.open('https://www.donationalerts.com/r/padsjasdlskad')} className='px-8 py-0 h-12'>
+			<Button onClick={() => window.open('https://www.donationalerts.com/r/padsjasdlskad')} className='hidden lg:block px-8 py-0 h-12'>
 				<p>
 					Проходка
 				</p>

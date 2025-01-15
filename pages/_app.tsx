@@ -6,8 +6,8 @@ const montserrat = Montserrat({ subsets: ['cyrillic'] })
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-      <main className={montserrat.className}>
-        <Component {...pageProps} />
-      </main>
+    <main className={montserrat.className}>
+      <Component {...pageProps} />
+    </main>
   )
 }
