@@ -39,7 +39,7 @@ export default function Home() {
             <Image alt='' fill src={MinionImage.src} />
           </div>
           <div className="px-8 lg:pr-72 lg:pl-0">
-            <h1 className="text-white text-center lg:text-left font-extrabold mt-52 lg:mt-0 text-6xl lg:text-5xl">
+            <h1 className="text-white text-center lg:text-left font-extrabold mt-20 lg:mt-0 text-6xl lg:text-5xl">
               Не просто
               <br />
               cервер в minecraft
