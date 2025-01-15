@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 const nextConfig: NextConfig = {
+  output: 'standalone',
   webpack(config) {
     const fileLoaderRule = config.module.rules.find((rule: any) =>
       rule.test?.test?.('.svg'),
