@@ -29,7 +29,7 @@ export default function Home() {
         </title>
       </Head>
       <div
-        className='h-screen'
+        className='h-screen w-screen overflow-x-hidden'
       >
         <Snackbar onClick={() => setShowSnakbar(false)} show={showSnackbar} />
         <Header />
@@ -38,8 +38,8 @@ export default function Home() {
           <div className="relative w-[40%] hidden lg:block aspect-[1.11/1]">
             <Image alt='' fill src={MinionImage.src} />
           </div>
-          <div className="px-20 lg:pr-72">
-            <h1 className="text-white text-center lg:text-left font-extrabold mt-52 lg:mt-0 text-7xl lg:text-5xl">
+          <div className="px-8 lg:pr-72 lg:pl-0">
+            <h1 className="text-white text-center lg:text-left font-extrabold mt-52 lg:mt-0 text-6xl lg:text-5xl">
               Не просто
               <br />
               cервер в minecraft

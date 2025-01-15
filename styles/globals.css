@@ -5,4 +5,5 @@
 body {
   font-family: var(--font-montserrat);
   background: #0d0d11;
+  overflow-x: hidden;
 }

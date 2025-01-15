@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Header = () => {
 	return (
-		<div className="flex items-center w-full justify-between px-16 py-8">
+		<div className="flex items-center w-full justify-between px-8 lg:px-16 py-8">
 			<Logo />
 
 			<div className='lg:flex gap-5 font-extrabold hidden'>
