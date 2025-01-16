@@ -53,7 +53,7 @@ export default function Home() {
               </Button>
               <Button onClick={onClick} className='pl-5 pr-3 !bg-[#0d0d11] flex justify-between border-4 border-primary text-primary  py-4 w-full lg:w-[232px]'>
                 <p>
-                  87.228.1.98:25597
+                  195.133.18.35:25597
                 </p>
                 <CopyIcon />
               </Button>
